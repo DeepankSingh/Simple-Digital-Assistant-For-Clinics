@@ -1,0 +1,25 @@
+.
+├── docs
+│   ├── SAAS_ARCHITECTURE.md
+│   └── FOLDER_STRUCTURE.txt
+├── sql
+│   └── clinicflow.sql
+├── src
+│   ├── gateway
+│   │   └── ApiGateway
+│   └── services
+│       ├── AuthService
+│       │   ├── Api
+│       │   ├── Application
+│       │   ├── Domain
+│       │   └── Infrastructure
+│       ├── PatientService
+│       ├── AppointmentService
+│       ├── PrescriptionService
+│       └── NotificationService
+└── frontend
+    └── angular-clinic
+        └── src/app
+            ├── core
+            ├── shared
+            └── features
